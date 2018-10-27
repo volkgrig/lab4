@@ -1,4 +1,4 @@
-//  ConsoleApplication1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+// ConsoleApplication1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
 #include "pch.h"
@@ -47,8 +47,6 @@ int main()
 			student.subjects.push_back(subject);
 			cin.ignore();
 		}
-		
-		
 		students.push_back(student);
 	};
 	cout << "\n";
@@ -82,4 +80,3 @@ int main()
 	cout << summa / n;
 	return 0;
 }
-
